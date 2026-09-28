@@ -1,0 +1,46 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-classpath
+'C:/Users/juanm/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.5.6/mariadb-java-client-3.5.6.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+24
+-sourcepath
+'C:/Users/juanm/OneDrive/Desktop/DAW/DWES/Nominas2/desarrolloServidor1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/juanm/OneDrive/Desktop/DAW/DWES/Nominas2/desarrolloServidor1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'desarrolloServidor1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'desarrolloServidor1 1.0-SNAPSHOT API'
+com.mycompany.desarrolloservidor1.Laboral
+C:\Users\juanm\.m2\repository\org\mariadb\jdbc\mariadb-java-client\3.5.6\mariadb-java-client-3.5.6.jar = 1790240592222
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\src\main\java = 1790321336336
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\allclasses-index.html = 1790590430920
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\allpackages-index.html = 1790590430923
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\element-list = 1790590430818
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\help-doc.html = 1790590430961
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\index-all.html = 1790590430951
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\index.html = 1790590430956
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\member-search-index.js = 1790590430930
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\module-search-index.js = 1790590430925
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\overview-tree.html = 1790590430904
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\package-search-index.js = 1790590430926
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\search.html = 1790590430954
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\serialized-form.html = 1790590430846
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\tag-search-index.js = 1790590430931
+C:\Users\juanm\OneDrive\Desktop\DAW\DWES\Nominas2\desarrolloServidor1\target\reports\apidocs\type-search-index.js = 1790590430928

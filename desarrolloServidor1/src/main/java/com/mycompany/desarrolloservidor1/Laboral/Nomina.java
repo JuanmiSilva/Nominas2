@@ -1,8 +1,11 @@
 package com.mycompany.desarrolloservidor1.Laboral;
 
 /**
- * Calcula el sueldo de los empleados a partir de su categoría
- * profesional y de los años trabajados.
+ * Clase encargada de calcular el sueldo de los empleados.
+ *
+ * <p>El sueldo se obtiene a partir del sueldo base correspondiente
+ * a la categoría profesional y de un complemento de 5000 euros
+ * por cada año trabajado.</p>
  *
  * @author Juan Miguel Silva Martín
  * @version 1.0
@@ -10,18 +13,27 @@ package com.mycompany.desarrolloservidor1.Laboral;
  */
 public class Nomina {
 
-    /** Sueldos base por categoría; la posición 0 corresponde a la categoría 1. */
-    private static final int SUELDO_BASE[] =
-            {50000, 70000, 90000, 110000, 130000, 150000, 170000, 190000, 210000, 230000};
+    /**
+     * Sueldos base correspondientes a las categorías profesionales
+     * del 1 al 10.
+     */
+    private static final int SUELDO_BASE[] = {
+        50000, 70000, 90000, 110000, 130000,
+        150000, 170000, 190000, 210000, 230000
+    };
 
     /**
-     * Calcula el sueldo de un empleado como el sueldo base de su
-     * categoría más 5000 por cada año trabajado.
+     * Calcula el sueldo de un empleado.
      *
-     * @param emple empleado del que se quiere calcular el sueldo
-     * @return sueldo resultante del empleado
+     * <p>El sueldo se obtiene sumando al sueldo base de la categoría
+     * 5000 euros por cada año trabajado.</p>
+     *
+     * @param emple empleado cuyo sueldo se desea calcular
+     * @return sueldo calculado
      */
     public static int sueldo(Empleado emple) {
-        return SUELDO_BASE[emple.getCategoria() - 1] + 5000 * emple.anyos;
+
+        return SUELDO_BASE[emple.getCategoria() - 1]
+                + 5000 * emple.anyos;
     }
 }

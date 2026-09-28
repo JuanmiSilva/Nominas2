@@ -1,8 +1,11 @@
 package com.mycompany.desarrolloservidor1.Laboral;
 
 /**
- * Excepción que se lanza cuando los datos de un empleado no son
- * válidos: categoría fuera del rango 1-10 o años trabajados negativos.
+ * Excepción que se produce cuando los datos introducidos para un empleado
+ * no cumplen las condiciones establecidas por la aplicación.
+ *
+ * <p>La categoría debe estar comprendida entre 1 y 10 y los años
+ * trabajados no pueden ser negativos.</p>
  *
  * @author Juan Miguel Silva Martín
  * @version 1.0
@@ -10,8 +13,8 @@ package com.mycompany.desarrolloservidor1.Laboral;
 public class DatosNoCorrectosException extends Exception {
 
     /**
-     * Crea la excepción e informa por la salida estándar de que
-     * los datos no son correctos.
+     * Crea una nueva excepción indicando que los datos proporcionados
+     * no son correctos.
      */
     public DatosNoCorrectosException() {
         System.out.println("Datos no correctos");

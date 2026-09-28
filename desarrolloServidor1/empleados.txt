@@ -1,0 +1,3 @@
+00000001L;Lidia;F;1;0
+32000031R;Ada Lovelace;F;1;0
+32000032G;James Gosling;M;10;3
